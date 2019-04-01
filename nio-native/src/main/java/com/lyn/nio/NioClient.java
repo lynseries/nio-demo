@@ -20,6 +20,7 @@ public class NioClient {
 
     private List<String> responseStrs = new ArrayList<>();
 
+    //用于阻塞到获取连接
     private CountDownLatch countDownLatch = new CountDownLatch(1);
 
     public NioClient() throws IOException, InterruptedException {
@@ -43,7 +44,8 @@ public class NioClient {
         }).start();
 
         //if(countDownLatch.getCount() != 0){
-            countDownLatch.await();
+        //没有连接到NIOServer会阻塞在这里
+        countDownLatch.await();
         //}
 
         System.out.println("Nio Client 启动完成");
@@ -71,15 +73,15 @@ public class NioClient {
     }
 
     private void handleKey(SelectionKey key) throws IOException {
-
+        //连接就绪
         if(key.isConnectable()){
             handleConnectKey(key);
         }
-
+        //读就绪
         if(key.isWritable()){
             handleWriteKey(key);
         }
-
+        //写就绪
         if(key.isReadable()){
             handleReadKey(key);
         }
@@ -118,6 +120,7 @@ public class NioClient {
         socketChannel.finishConnect();
         System.out.println("接收新的连接 channel");
         socketChannel.register(selector,SelectionKey.OP_READ,responseStrs);
+        //连接到服务端后计数器减操作
         countDownLatch.countDown();
     }
 
