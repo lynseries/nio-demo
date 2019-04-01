@@ -48,9 +48,13 @@ Linux IO模型：
 参考资料：
 
 1、IBM社区：https://www.ibm.com/developerworks/cn/education/java/j-nio/j-nio.html
+
 2、GitHub：https://github.com/CyC2018/Interview-Notebook/blob/master/notes/Java%20IO.md
+
 3、同步异步区别：https://www.zhihu.com/question/19732473
 
 链接：https://www.jianshu.com/p/a660c17bb9ea
+
 来源：简书
+
 简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
