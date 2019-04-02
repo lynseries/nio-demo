@@ -117,6 +117,7 @@ public class NioClient {
         if(!socketChannel.isConnectionPending()){
             return;
         }
+        //等待TCP三次握手完成
         socketChannel.finishConnect();
         System.out.println("接收新的连接 channel");
         socketChannel.register(selector,SelectionKey.OP_READ,responseStrs);
