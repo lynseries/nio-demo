@@ -31,7 +31,7 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        System.err.println("channelRead..."+msg);
+        System.err.println("channelRead..." + msg);
     }
 
     @Override

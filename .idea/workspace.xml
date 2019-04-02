@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ece52ef-ae15-4e7d-9e84-6042002154ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/NettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio-native/src/main/java/com/lyn/nio/NioClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/nio-native/src/main/java/com/lyn/nio/NioClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ClientInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ClientInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ServerInitializer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,6 +35,7 @@
           <entry key="class" value="5" />
           <entry key="iml" value="1" />
           <entry key="java" value="61" />
+          <entry key="md" value="1" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
@@ -43,19 +44,20 @@
           <entry key="CLASS" value="5" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="61" />
+          <entry key="Markdown" value="1" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="5331" />
+          <entry key="java" value="5338" />
           <entry key="xml" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5331" />
+          <entry key="JAVA" value="5338" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="26" />
         </counts>
@@ -67,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="39" column="25" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="165">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ServerInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="180">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,8 +93,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/NettyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+            <state relative-caret-position="135">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ClientInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,22 +112,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ClientInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/NettyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+            <state relative-caret-position="210">
+              <caret line="25" column="74" lean-forward="true" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,7 +139,17 @@
         <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.22.Final/netty-all-4.1.22.Final-sources.jar!/io/netty/handler/codec/Delimiters.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="213">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -179,12 +188,12 @@
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ServerInit.java" />
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/simple/DiscardServer.java" />
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/simple/DiscardServerHandler.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ClientHandler.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ServerInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ServerHandler.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ClientInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/NettyClient.java" />
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/NettyServer.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/NettyClient.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ClientInitializer.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ServerInitializer.java" />
       </list>
     </option>
   </component>
@@ -256,6 +265,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="nio-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nio-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -266,7 +284,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554210354767" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554216409235" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../dabai-vip" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -276,11 +294,11 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.lyn.netty" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\openCode\nio-demo\nio-native\src\main\java\com\lyn" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lyn.netty" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -430,18 +448,17 @@
       <updated>1553668931900</updated>
       <workItem from="1553668941542" duration="3805000" />
       <workItem from="1553921309916" duration="31223000" />
-      <workItem from="1554174719904" duration="13355000" />
+      <workItem from="1554174719904" duration="14746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48383000" />
+    <option name="totallyTimeSpent" value="49774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.28366762" visible="true" weight="0.25788197" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.28366762" visible="true" weight="0.25788197" />
       <window_info id="Structure" order="1" sideWeight="0.7163324" side_tool="true" weight="0.25788197" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -450,14 +467,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.270073" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.270073" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39781022" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33029196" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32846716" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32846716" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -494,13 +511,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files4java/jdk1.8.0_192/src.zip!/java/nio/channels/spi/SelectorProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="240" column="63" selection-start-line="240" selection-start-column="40" selection-end-line="240" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files4java/jdk1.8.0_192/src.zip!/java/nio/channels/ServerSocketChannel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -809,14 +819,39 @@
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.22.Final/netty-all-4.1.22.Final-sources.jar!/io/netty/handler/codec/Delimiters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ServerInitializer.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/NettyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="210">
+          <caret line="25" column="74" lean-forward="true" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -833,40 +868,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ClientInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/NettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="25" />
+        <state relative-caret-position="165">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/NettyServer.java">
+    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/lyn/netty/ServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+        <state relative-caret-position="180">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -5,10 +5,11 @@ import io.netty.channel.*;
 import java.net.InetAddress;
 
 @ChannelHandler.Sharable
-public class ServerHandler extends  ChannelInboundHandlerAdapter {
+public class ServerHandler extends ChannelInboundHandlerAdapter {
 
     /**
      * 建立新连接时，发送消息给客户端.
+     *
      * @param ctx
      * @throws Exception
      */
@@ -23,20 +24,20 @@ public class ServerHandler extends  ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        System.out.println("channelRead...msg====>" +msg);
-        String response ;
+        System.out.println("channelRead...msg====>" + msg);
+        String response;
         boolean close = false;
-        if (msg == null ||"".equals(msg)){
+        if (msg == null || "".equals(msg)) {
             response = "please input something.\r\n";
-        }else if("bye".equals(msg)){
+        } else if ("bye".equals(msg)) {
             response = "have a good day.\r\n";
             close = true;
-        }else {
+        } else {
             response = "did you say something ?\r\n";
         }
 
         ChannelFuture channelFuture = ctx.writeAndFlush(response);
-        if(close){
+        if (close) {
             channelFuture.addListener(ChannelFutureListener.CLOSE);
         }
     }

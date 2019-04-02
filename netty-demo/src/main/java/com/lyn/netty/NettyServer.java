@@ -23,10 +23,11 @@ public class NettyServer {
                     .handler(new LoggingHandler(LogLevel.DEBUG))
                     .childHandler(new ServerInitializer());
 
-            ChannelFuture channelFuture = bootstrap.bind("127.0.0.1", 9999);
-
+            ChannelFuture channelFuture = bootstrap.bind("127.0.0.1", 9999).sync();
+            if (channelFuture.isSuccess()) {
+                System.out.println("启动 Netty 成功");
+            }
             channelFuture.channel().closeFuture().sync();
-            System.out.println("server start");
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
